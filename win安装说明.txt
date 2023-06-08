@@ -24,6 +24,13 @@ https://download.pytorch.org/whl/torch/
 下载torch-1.13.1+cu117-cp310-cp310-win_amd64.whl
 放到 c:\langchain-ChatGLM-and-TigerBot 目录中
 
+链接: https://pan.baidu.com/s/19q22PakPG-hxO4MFwyXUQw 提取码: sihp 
+下载
+solved_packageMissInInstalling_mu_visual_cpp_build_tools_2015_update_3_x64_dvd_dfd9a39c.iso
+挂在到虚拟光驱以后
+执行
+VisualCppBuildTools_Full.exe
+
 
 .\Python310\python.exe -m pip install --requirement requirements.txt -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
 .\Python310\python.exe -m pip uninstall torch
