@@ -1,0 +1,37 @@
+git clone https://github.com/wordweb/langchain-ChatGLM-and-TigerBot
+cd langchain-ChatGLM-and-TigerBot
+
+链接: https://pan.baidu.com/s/11O5wnEJ7B3dkM1cvTdKMAA 提取码: 4g63 
+下载Python310.zip
+
+解压后确保Python.exe是在这个路径
+c:\langchain-ChatGLM-and-TigerBot\Python310\Python.exe
+
+mkdir model
+cd model
+mkdir TigerBot
+到下面的链接中下载所有文件， 
+https://huggingface.co/TigerResearch/tigerbot-7b-sft/tree/main
+放到 c:\langchain-ChatGLM-and-TigerBot\model\TigerBot 目录中
+
+mkdir text2vec-large-chinese
+到下面的链接中下载所有文件， 
+https://huggingface.co/GanymedeNil/text2vec-large-chinese/tree/main
+放到 c:\langchain-ChatGLM-and-TigerBot\model\text2vec-large-chinese 目录中
+
+
+https://download.pytorch.org/whl/torch/
+下载torch-1.13.1+cu117-cp310-cp310-win_amd64.whl
+放到 c:\langchain-ChatGLM-and-TigerBot 目录中
+
+
+.\Python310\python.exe -m pip install --requirement requirements.txt -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
+.\Python310\python.exe -m pip uninstall torch
+.\Python310\python.exe -m pip install torch-1.13.1+cu117-cp310-cp310-win_amd64.whl  -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+.\Python310\python.exe webui.py
+或者
+.\Python310\python.exe api.py
+
+根据提示，在浏览器中访问
+http://localhost:7861 或者 http://localhost:7860
