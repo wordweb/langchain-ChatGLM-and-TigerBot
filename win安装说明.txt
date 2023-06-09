@@ -21,7 +21,7 @@ https://huggingface.co/GanymedeNil/text2vec-large-chinese/tree/main
 
 
 https://download.pytorch.org/whl/torch/
-下载torch-1.13.1+cu117-cp310-cp310-win_amd64.whl
+下载torch-2.0.1+cu117-cp310-cp310-win_amd64.whl
 放到 c:\langchain-ChatGLM-and-TigerBot 目录中
 
 链接: https://pan.baidu.com/s/19q22PakPG-hxO4MFwyXUQw 提取码: sihp 
@@ -34,7 +34,7 @@ VisualCppBuildTools_Full.exe
 
 .\Python310\python.exe -m pip install --requirement requirements.txt -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
 .\Python310\python.exe -m pip uninstall torch
-.\Python310\python.exe -m pip install torch-1.13.1+cu117-cp310-cp310-win_amd64.whl  -i https://pypi.tuna.tsinghua.edu.cn/simple
+.\Python310\python.exe -m pip install torch-2.0.1+cu117-cp310-cp310-win_amd64.whl  -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 .\Python310\python.exe webui.py
 或者
