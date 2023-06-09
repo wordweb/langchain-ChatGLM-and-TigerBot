@@ -44,3 +44,7 @@ VisualCppBuildTools_Full.exe
 
 根据提示，在浏览器中访问
 http://localhost:7861 或者 http://localhost:7860
+
+
+如果提示找不到gpu请到下面链接下载cuda117
+https://developer.nvidia.com/cuda-11-7-0-download-archive
