@@ -36,6 +36,8 @@ VisualCppBuildTools_Full.exe
 .\Python310\python.exe -m pip uninstall torch
 .\Python310\python.exe -m pip install torch-2.0.1+cu117-cp310-cp310-win_amd64.whl  -i https://pypi.tuna.tsinghua.edu.cn/simple
 
+.\Python310\python.exe -m pip install accelerate -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
+
 .\Python310\python.exe webui.py
 或者
 .\Python310\python.exe api.py
